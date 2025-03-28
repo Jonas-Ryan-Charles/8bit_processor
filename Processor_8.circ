@@ -1083,4 +1083,46 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
+  <circuit name="T_RAM">
+    <a name="circuit" val="T_RAM"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp loc="(1380,890)" name="P_MEM8"/>
+    <comp loc="(1540,330)" name="P_MEM8"/>
+    <comp loc="(1210,190)" name="P_MEM8"/>
+    <comp loc="(1540,610)" name="P_MEM8"/>
+    <comp loc="(720,330)" name="P_MEM8"/>
+    <comp loc="(720,750)" name="P_MEM8"/>
+    <comp loc="(720,470)" name="P_MEM8"/>
+    <comp loc="(1050,470)" name="P_MEM8"/>
+    <comp loc="(720,190)" name="P_MEM8"/>
+    <comp loc="(1380,750)" name="P_MEM8"/>
+    <comp loc="(890,750)" name="P_MEM8"/>
+    <comp loc="(1210,330)" name="P_MEM8"/>
+    <comp loc="(1380,330)" name="P_MEM8"/>
+    <comp loc="(1050,190)" name="P_MEM8"/>
+    <comp loc="(1540,890)" name="P_MEM8"/>
+    <comp loc="(1210,890)" name="P_MEM8"/>
+    <comp loc="(890,190)" name="P_MEM8"/>
+    <comp loc="(890,330)" name="P_MEM8"/>
+    <comp loc="(1380,470)" name="P_MEM8"/>
+    <comp loc="(890,470)" name="P_MEM8"/>
+    <comp loc="(1540,470)" name="P_MEM8"/>
+    <comp loc="(1050,330)" name="P_MEM8"/>
+    <comp loc="(1050,750)" name="P_MEM8"/>
+    <comp loc="(1050,890)" name="P_MEM8"/>
+    <comp loc="(720,890)" name="P_MEM8"/>
+    <comp loc="(1540,190)" name="P_MEM8"/>
+    <comp loc="(1210,470)" name="P_MEM8"/>
+    <comp loc="(1380,610)" name="P_MEM8"/>
+    <comp loc="(1210,750)" name="P_MEM8"/>
+    <comp loc="(1210,610)" name="P_MEM8"/>
+    <comp loc="(890,890)" name="P_MEM8"/>
+    <comp loc="(1050,610)" name="P_MEM8"/>
+    <comp loc="(890,610)" name="P_MEM8"/>
+    <comp loc="(720,610)" name="P_MEM8"/>
+    <comp loc="(1380,190)" name="P_MEM8"/>
+    <comp loc="(1540,750)" name="P_MEM8"/>
+  </circuit>
 </project>
