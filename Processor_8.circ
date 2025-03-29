@@ -593,6 +593,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M210,55 Q214,65 218,55" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="176" stroke="#000000" width="110" x="160" y="54"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="168" y="134">i</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="189" y="223">s</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="239" y="224">e</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="256" y="134">op</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="174" y="73">reg</text>
+      <text font-family="SansSerif" font-size="14" text-anchor="middle" x="214" y="118">CPU</text>
+      <text font-family="SansSerif" font-size="14" text-anchor="middle" x="214" y="138">REG</text>
+      <text font-family="SansSerif" font-size="14" text-anchor="middle" x="214" y="156">8</text>
+      <circ-port height="8" pin="210,210" width="8" x="156" y="126"/>
+      <circ-port height="8" pin="250,370" width="8" x="186" y="226"/>
+      <circ-port height="8" pin="250,390" width="8" x="236" y="226"/>
+      <circ-port height="10" pin="430,120" width="10" x="155" y="65"/>
+      <circ-port height="10" pin="630,280" width="10" x="265" y="125"/>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="127"/>
+    </appear>
     <wire from="(420,320)" to="(420,390)"/>
     <wire from="(400,120)" to="(430,120)"/>
     <wire from="(610,280)" to="(630,280)"/>
