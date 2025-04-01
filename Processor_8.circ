@@ -1709,36 +1709,78 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(820,490)" to="(870,490)"/>
-    <wire from="(450,330)" to="(450,490)"/>
-    <wire from="(500,330)" to="(500,490)"/>
+    <wire from="(580,220)" to="(580,360)"/>
+    <wire from="(580,170)" to="(630,170)"/>
+    <wire from="(650,260)" to="(700,260)"/>
     <wire from="(450,490)" to="(500,490)"/>
-    <wire from="(500,490)" to="(650,490)"/>
-    <wire from="(240,230)" to="(420,230)"/>
-    <wire from="(650,490)" to="(650,520)"/>
+    <wire from="(580,160)" to="(640,160)"/>
+    <wire from="(640,270)" to="(700,270)"/>
+    <wire from="(580,180)" to="(620,180)"/>
+    <wire from="(600,310)" to="(700,310)"/>
     <wire from="(820,340)" to="(820,490)"/>
+    <wire from="(590,320)" to="(700,320)"/>
     <wire from="(870,340)" to="(870,490)"/>
     <wire from="(650,490)" to="(820,490)"/>
     <wire from="(900,240)" to="(1010,240)"/>
+    <wire from="(580,200)" to="(600,200)"/>
+    <wire from="(450,330)" to="(450,490)"/>
+    <wire from="(500,330)" to="(500,490)"/>
+    <wire from="(650,150)" to="(650,260)"/>
+    <wire from="(640,160)" to="(640,270)"/>
+    <wire from="(630,170)" to="(630,280)"/>
+    <wire from="(620,180)" to="(620,290)"/>
+    <wire from="(610,190)" to="(610,300)"/>
+    <wire from="(600,200)" to="(600,310)"/>
+    <wire from="(590,210)" to="(590,320)"/>
+    <wire from="(530,230)" to="(560,230)"/>
+    <wire from="(580,190)" to="(610,190)"/>
+    <wire from="(500,490)" to="(650,490)"/>
+    <wire from="(610,300)" to="(700,300)"/>
+    <wire from="(280,230)" to="(420,230)"/>
+    <wire from="(720,240)" to="(790,240)"/>
+    <wire from="(580,150)" to="(650,150)"/>
+    <wire from="(580,360)" to="(650,360)"/>
+    <wire from="(630,280)" to="(700,280)"/>
+    <wire from="(650,490)" to="(650,540)"/>
+    <wire from="(620,290)" to="(700,290)"/>
+    <wire from="(690,250)" to="(700,250)"/>
+    <wire from="(580,210)" to="(590,210)"/>
+    <wire from="(690,70)" to="(690,250)"/>
     <comp loc="(530,230)" name="P_REG_8NEW"/>
-    <comp loc="(110,70)" name="P_REG_BYTE"/>
-    <comp lib="0" loc="(240,230)" name="Pin">
-      <a name="width" val="8"/>
+    <comp lib="0" loc="(690,70)" name="Pin">
+      <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="Shift_in"/>
     </comp>
-    <comp lib="0" loc="(730,250)" name="Splitter">
+    <comp loc="(110,70)" name="P_REG_BYTE"/>
+    <comp lib="0" loc="(720,240)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(650,520)" name="Constant">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(280,230)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
     </comp>
-    <comp loc="(900,240)" name="P_REG_8NEW"/>
+    <comp lib="0" loc="(560,230)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
     <comp lib="0" loc="(1010,240)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(650,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Shift_out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(900,240)" name="P_REG_8NEW"/>
+    <comp lib="0" loc="(650,540)" name="Constant">
+      <a name="facing" val="north"/>
     </comp>
   </circuit>
 </project>
