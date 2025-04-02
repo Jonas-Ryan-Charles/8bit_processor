@@ -1454,6 +1454,27 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polyline fill="none" points="180,100 180,129" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="243" y="113">sum</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="208" y="118">SUB</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="207" y="134">8</text>
+      <polyline fill="none" points="160,50 160,80" stroke="#000000"/>
+      <polyline fill="none" points="160,50 261,90" stroke="#000000"/>
+      <polyline fill="none" points="160,150 180,130" stroke="#000000"/>
+      <polyline fill="none" points="160,80 180,100" stroke="#000000"/>
+      <polyline fill="none" points="160,150 160,180" stroke="#000000"/>
+      <polyline fill="none" points="160,180 260,140" stroke="#000000"/>
+      <polyline fill="none" points="261,90 260,140" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="210" y="88">B_out</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="168" y="65">a</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="168" y="164">b</text>
+      <circ-port height="8" pin="660,80" width="8" x="156" y="56"/>
+      <circ-port height="8" pin="350,740" width="8" x="156" y="156"/>
+      <circ-port height="10" pin="1460,460" width="10" x="255" y="105"/>
+      <circ-port height="10" pin="1230,80" width="10" x="205" y="65"/>
+      <circ-anchor facing="east" height="6" width="6" x="257" y="107"/>
+    </appear>
     <wire from="(670,80)" to="(670,280)"/>
     <wire from="(1110,910)" to="(1110,930)"/>
     <wire from="(740,710)" to="(920,710)"/>
