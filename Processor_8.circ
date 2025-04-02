@@ -1729,6 +1729,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polyline fill="none" points="140,60 200,79" stroke="#000000"/>
+      <polyline fill="none" points="140,60 140,150" stroke="#000000"/>
+      <polyline fill="none" points="200,88 200,168" stroke="#000000"/>
+      <polyline fill="none" points="140,150 200,169" stroke="#000000"/>
+      <polyline fill="none" points="200,79 200,93" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="171" y="114">SHL</text>
+      <text font-family="SansSerif" font-size="9" text-anchor="middle" x="149" y="104">IP</text>
+      <text font-family="SansSerif" font-size="9" text-anchor="middle" x="192" y="113">OP</text>
+      <text font-family="SansSerif" font-size="9" text-anchor="middle" x="173" y="84">shift_in</text>
+      <text font-family="SansSerif" font-size="9" text-anchor="middle" x="169" y="150">shift_out</text>
+      <circ-port height="8" pin="280,230" width="8" x="136" y="96"/>
+      <circ-port height="10" pin="1010,240" width="10" x="195" y="115"/>
+      <circ-port height="10" pin="650,360" width="10" x="165" y="155"/>
+      <circ-port height="8" pin="690,70" width="8" x="166" y="66"/>
+      <circ-anchor facing="east" height="6" width="6" x="197" y="117"/>
+    </appear>
     <wire from="(820,490)" to="(870,490)"/>
     <wire from="(580,220)" to="(580,360)"/>
     <wire from="(580,170)" to="(630,170)"/>
@@ -1793,6 +1810,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
     </comp>
     <comp loc="(110,70)" name="P_REG_BYTE"/>
+    <comp lib="0" loc="(390,610)" name="Ground"/>
     <comp lib="0" loc="(690,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
