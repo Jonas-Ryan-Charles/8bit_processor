@@ -1926,6 +1926,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polyline fill="none" points="150,70 150,131" stroke="#000000"/>
+      <polyline fill="none" points="150,70 220,100" stroke="#000000"/>
+      <polyline fill="none" points="150,131 220,101" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="9" text-anchor="middle" x="178" y="103">8_bit NOT</text>
+      <circ-port height="8" pin="150,120" width="8" x="146" y="96"/>
+      <circ-port height="10" pin="570,210" width="10" x="215" y="95"/>
+      <circ-anchor facing="east" height="6" width="6" x="217" y="97"/>
+    </appear>
     <wire from="(280,170)" to="(340,170)"/>
     <wire from="(470,200)" to="(470,270)"/>
     <wire from="(370,190)" to="(430,190)"/>
