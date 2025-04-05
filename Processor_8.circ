@@ -2016,6 +2016,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polyline fill="none" points="160,39 160,130" stroke="#000000"/>
+      <path d="M160,38 Q280,75 160,130" fill="none" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="184" y="84">AND_8</text>
+      <text font-family="SansSerif" font-size="8" text-anchor="middle" x="167" y="62">A</text>
+      <text font-family="SansSerif" font-size="8" text-anchor="middle" x="167" y="113">B</text>
+      <text font-family="SansSerif" font-size="8" text-anchor="middle" x="209" y="84">OP</text>
+      <circ-port height="8" pin="150,70" width="8" x="156" y="56"/>
+      <circ-port height="8" pin="150,290" width="8" x="156" y="106"/>
+      <circ-port height="10" pin="650,160" width="10" x="215" y="75"/>
+      <circ-anchor facing="east" height="6" width="6" x="217" y="77"/>
+    </appear>
     <wire from="(590,140)" to="(590,460)"/>
     <wire from="(170,130)" to="(290,130)"/>
     <wire from="(280,440)" to="(400,440)"/>
