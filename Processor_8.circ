@@ -2293,7 +2293,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(940,660)" to="(990,660)"/>
     <wire from="(600,580)" to="(720,580)"/>
     <wire from="(590,590)" to="(590,600)"/>
-    <wire from="(820,720)" to="(940,720)"/>
     <wire from="(770,250)" to="(820,250)"/>
     <wire from="(980,410)" to="(980,480)"/>
     <wire from="(570,160)" to="(570,230)"/>
@@ -2307,7 +2306,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(630,530)" to="(630,680)"/>
     <wire from="(780,570)" to="(800,570)"/>
     <wire from="(740,260)" to="(740,300)"/>
-    <wire from="(940,660)" to="(940,720)"/>
+    <wire from="(820,720)" to="(850,720)"/>
     <wire from="(480,450)" to="(620,450)"/>
     <wire from="(180,590)" to="(510,590)"/>
     <wire from="(960,400)" to="(970,400)"/>
@@ -2325,6 +2324,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(720,560)" to="(780,560)"/>
     <wire from="(790,800)" to="(890,800)"/>
     <wire from="(720,530)" to="(720,560)"/>
+    <wire from="(830,520)" to="(830,540)"/>
     <wire from="(180,570)" to="(540,570)"/>
     <wire from="(340,160)" to="(570,160)"/>
     <wire from="(1010,290)" to="(1010,400)"/>
@@ -2353,6 +2353,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(790,770)" to="(790,800)"/>
     <wire from="(720,710)" to="(760,710)"/>
     <wire from="(750,450)" to="(750,480)"/>
+    <wire from="(770,630)" to="(770,660)"/>
     <wire from="(920,390)" to="(960,390)"/>
     <wire from="(180,550)" to="(480,550)"/>
     <wire from="(870,250)" to="(870,270)"/>
@@ -2367,9 +2368,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,560)" to="(660,560)"/>
     <wire from="(630,680)" to="(650,680)"/>
     <wire from="(570,580)" to="(570,690)"/>
+    <wire from="(770,660)" to="(790,660)"/>
     <wire from="(160,620)" to="(160,660)"/>
     <wire from="(620,350)" to="(620,450)"/>
     <wire from="(630,90)" to="(630,150)"/>
+    <wire from="(830,520)" to="(900,520)"/>
     <wire from="(240,510)" to="(380,510)"/>
     <wire from="(630,150)" to="(630,340)"/>
     <wire from="(570,410)" to="(650,410)"/>
@@ -2380,6 +2383,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(530,580)" to="(530,720)"/>
     <wire from="(770,440)" to="(820,440)"/>
     <wire from="(630,680)" to="(630,820)"/>
+    <wire from="(790,660)" to="(790,670)"/>
     <wire from="(600,700)" to="(600,770)"/>
     <wire from="(660,690)" to="(660,720)"/>
     <wire from="(720,710)" to="(720,740)"/>
@@ -2389,16 +2393,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(720,230)" to="(720,250)"/>
     <wire from="(870,330)" to="(890,330)"/>
     <wire from="(630,530)" to="(650,530)"/>
+    <wire from="(850,720)" to="(850,760)"/>
     <wire from="(720,250)" to="(750,250)"/>
     <wire from="(970,240)" to="(980,240)"/>
     <wire from="(860,590)" to="(940,590)"/>
     <wire from="(380,260)" to="(380,510)"/>
-    <comp lib="0" loc="(890,800)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(860,590)" name="P_SHL"/>
     <comp loc="(920,200)" name="ALU_ADDER_8"/>
     <comp lib="0" loc="(340,160)" name="Pin">
       <a name="width" val="8"/>
@@ -2406,10 +2405,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(770,150)" name="Controlled Buffer">
       <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(870,270)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(610,690)" name="Controlled Buffer">
       <a name="width" val="8"/>
@@ -2443,7 +2438,36 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(770,630)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(600,580)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp loc="(820,720)" name="P_SHR"/>
+    <comp lib="0" loc="(410,90)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(670,680)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(890,800)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(860,590)" name="P_SHL"/>
+    <comp lib="0" loc="(870,270)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+    </comp>
     <comp loc="(920,390)" name="ALU_SUBRATOR_8"/>
+    <comp lib="0" loc="(900,520)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="1" loc="(1000,240)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>
@@ -2453,23 +2477,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(600,580)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp loc="(820,720)" name="P_SHR"/>
     <comp lib="0" loc="(890,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(410,90)" name="Pin">
-      <a name="width" val="8"/>
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="1" loc="(770,340)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="1" loc="(670,680)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>
     <comp lib="1" loc="(670,530)" name="Controlled Buffer">
