@@ -2403,4 +2403,62 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="a larger"/>
     </comp>
   </circuit>
+  <circuit name="P_XOR_1">
+    <a name="circuit" val="P_XOR_1"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M150,70 Q230,102 150,130" fill="none" stroke="#000000"/>
+      <path d="M150,70 Q169,100 150,130" fill="none" stroke="#000000"/>
+      <path d="M140,70 Q159,100 140,130" fill="none" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="174" y="104">xor</text>
+      <circ-port height="8" pin="400,190" width="8" x="136" y="76"/>
+      <circ-port height="8" pin="400,310" width="8" x="136" y="116"/>
+      <circ-port height="10" pin="890,250" width="10" x="185" y="95"/>
+      <circ-anchor facing="east" height="6" width="6" x="187" y="97"/>
+    </appear>
+    <wire from="(400,190)" to="(460,190)"/>
+    <wire from="(400,310)" to="(430,310)"/>
+    <wire from="(650,210)" to="(670,210)"/>
+    <wire from="(650,290)" to="(670,290)"/>
+    <wire from="(430,230)" to="(590,230)"/>
+    <wire from="(430,310)" to="(480,310)"/>
+    <wire from="(460,190)" to="(480,190)"/>
+    <wire from="(670,230)" to="(730,230)"/>
+    <wire from="(670,270)" to="(730,270)"/>
+    <wire from="(790,250)" to="(890,250)"/>
+    <wire from="(430,230)" to="(430,310)"/>
+    <wire from="(460,190)" to="(460,270)"/>
+    <wire from="(510,190)" to="(590,190)"/>
+    <wire from="(510,310)" to="(590,310)"/>
+    <wire from="(460,270)" to="(590,270)"/>
+    <wire from="(670,210)" to="(670,230)"/>
+    <wire from="(670,270)" to="(670,290)"/>
+    <comp lib="1" loc="(510,310)" name="NOT Gate"/>
+    <comp lib="1" loc="(650,210)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(890,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(650,290)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(400,310)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(400,190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="1" loc="(510,190)" name="NOT Gate"/>
+    <comp lib="1" loc="(790,250)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+  </circuit>
 </project>
