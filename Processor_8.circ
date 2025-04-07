@@ -2454,24 +2454,31 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(340,100)" to="(340,360)"/>
     <wire from="(130,290)" to="(450,290)"/>
     <wire from="(360,340)" to="(450,340)"/>
     <wire from="(310,340)" to="(360,340)"/>
     <wire from="(310,230)" to="(310,340)"/>
+    <wire from="(340,100)" to="(460,100)"/>
     <wire from="(130,230)" to="(310,230)"/>
+    <wire from="(460,80)" to="(460,100)"/>
     <wire from="(360,340)" to="(360,420)"/>
     <wire from="(380,200)" to="(460,200)"/>
     <wire from="(360,420)" to="(470,420)"/>
+    <wire from="(460,40)" to="(460,70)"/>
+    <wire from="(510,60)" to="(640,60)"/>
+    <wire from="(140,360)" to="(340,360)"/>
     <wire from="(380,200)" to="(380,230)"/>
+    <wire from="(40,70)" to="(460,70)"/>
     <wire from="(310,230)" to="(380,230)"/>
     <comp lib="6" loc="(81,368)" name="Text">
       <a name="text" val="carry-in"/>
     </comp>
     <comp loc="(530,200)" name="P_NOT"/>
-    <comp loc="(510,310)" name="P_AND"/>
-    <comp lib="0" loc="(130,360)" name="Pin">
+    <comp lib="0" loc="(140,360)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp loc="(510,310)" name="P_AND"/>
     <comp loc="(510,440)" name="P_OR"/>
     <comp lib="0" loc="(130,290)" name="Pin">
       <a name="width" val="8"/>
@@ -2483,6 +2490,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="8"/>
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(40,70)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
   </circuit>
 </project>
